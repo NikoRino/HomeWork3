@@ -1,4 +1,4 @@
-﻿void Distance(int ax, int ay, int az, int bx, int by, int bz)
+void Distance(int ax, int ay, int az, int bx, int by, int bz)
 {
     double distans = Math.Sqrt(Math.Pow(ax - bx, 2) + Math.Pow(ay - by, 2) + Math.Pow(az - bz, 2));
     Console.WriteLine($"Расстояние межэду двух точек: {distans}!");
